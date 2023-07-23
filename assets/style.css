@@ -47,11 +47,11 @@ main {
  margin-right: auto;
 }
 
-.left-side {
+.about {
     display: flex;
 }
 
-.left-side h1 {
+.about h1 {
     flex: 0 0 20%;
     font-size: 28pt;
     text-align: right;
@@ -59,17 +59,13 @@ main {
     border-right: solid 5px var(--purple);
 }
 
-.left-side div {
+.about div {
     flex: 0 0 60%;
 }
 
-.left-side figure {
-    flex: 0 0 20%;
-}
-
-p {
-    padding: 2%;
+.about p {
     text-align: justify;
+    padding: 2%;
 }
 
 .headshot {
@@ -77,4 +73,44 @@ p {
     max-height: 200px;
     max-width: 200px;
     padding: 5%;
+}
+
+.portfolio {
+    display: flex;
+    border: solid black 1px;
+}
+
+.portfolio h1 {
+    flex: 0 0 20%;
+    font-size: 28pt;
+    text-align: right;
+    padding: 15px;
+    border-right: solid 5px var(--purple);
+}
+
+.portfolio-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 2%;
+}
+
+.portfolio-image {
+    min-height: 200px;
+    min-width: 200px;
+    border: black solid 5px;
+    background-size: 100%;
+}
+
+.first {
+    min-height: 500px;
+    flex-basis: 100%;
+    background-image: url(./coming\ soon.jpg);
+}
+
+.second {
+    min-height: 200px;
+    background-image: url(./coming\ soon2.jpg);
+    flex-basis: calc(50% - 1em);
 }
