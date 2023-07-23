@@ -47,25 +47,34 @@ main {
  margin-right: auto;
 }
 
-main section {
-    border: solid black 1px;
-}
-
-main div {
-    border: solid black 1px;
-}
-
 .left-side {
     display: flex;
 }
 
 .left-side h1 {
     flex: 0 0 20%;
+    font-size: 28pt;
+    text-align: right;
+    padding: 15px;
+    border-right: solid 5px var(--purple);
+}
+
+.left-side div {
+    flex: 0 0 60%;
+}
+
+.left-side figure {
+    flex: 0 0 20%;
+}
+
+p {
+    padding: 2%;
+    text-align: justify;
 }
 
 .headshot {
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
-
+    max-height: 200px;
+    max-width: 200px;
+    padding: 5%;
 }
