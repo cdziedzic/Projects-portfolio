@@ -3,8 +3,11 @@
 This webpage is a professional portfolio to be used later. It includes sections to enter information about me, a section of links to various projects to be completed in the future. There are currently placeholder images and links because we do not have any original projects to link to yet. 
 
 ## Deployed page link
-
+gi
 https://cdziedzic.github.io/Projects-portfolio/
+
+
+![Alt text](image.png)
 
 ### Images
 Coming soon.jpg was a free to use image obtained from the website https://www.pexels.com/@alleksana/
