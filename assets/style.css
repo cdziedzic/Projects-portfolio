@@ -16,6 +16,7 @@ body {
   background-image: linear-gradient(.27turn, grey 25%, black);
 }
 
+/* Header section used for both header and footer. Flexbox nav bar with name on the left and nav on right */
 header {
     display: flex;
     justify-content: space-between;
@@ -46,6 +47,7 @@ section a {
     text-decoration: none;
 }
 
+/* banner of www image and caption box for a second title on the site */
 .banner {
     display: flex;
     background-image: url(./Banner.jpg);
@@ -74,6 +76,7 @@ main {
  padding-bottom: 5%;
 }
 
+/* Flexbox for about me section on the left, paragraph in the center, and professional headshot image on the right */
 .about {
     display: flex;
 }
@@ -96,6 +99,7 @@ main {
     padding: 2%;
 }
 
+/* image size of professional photo */
 .headshot {
     border-radius: 50%;
     max-height: 200px;
@@ -103,6 +107,7 @@ main {
     padding: 5%;
 }
 
+/* Flexbox rules for portfolio section portfolio title on left and 5 future projects that are links with a placeholder site */
 .portfolio {
     display: flex;
 }
@@ -133,21 +138,21 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/* larger first project box */
 .first {
     min-height: 500px;
     flex-basis: 100%;
     background-image: url(./coming\ soon.jpg);
     background-position: center;
 }   
-
+/* smaller flexbox for projects two and onward */
 .second {
     min-height: 200px;
     flex-basis: calc(50% - 1em);
     background-image: url(coming\ soon2.jpg);
     background-position: center;
 }
-
+/* flexbox rules for first project title rules  */
 .title {
     display: flex;
     position: relative;
@@ -160,14 +165,14 @@ main {
     align-items: center;
 
 }
-
+/* text style for project 1 title box */
 .title h2 {
     text-align: center;
     padding: 10%;
     font-size: 20pt;
     color: black;
 }
-
+/* flexbox rules for second (smaller) title box */
 .title2 {
     display: flex;
     position: relative;
@@ -179,6 +184,7 @@ main {
     align-items: center;
 }
 
+/* text rules for smaller project titles */
 .title2 h2 {
     font-size: 16pt;
     padding: 10%;
@@ -187,6 +193,7 @@ main {
     color: black;
 }
 
+/* media query to make projects flexbox convert to one colum on smaller screens */
 @media screen and (max-width: 768px) {
 
 .second {
