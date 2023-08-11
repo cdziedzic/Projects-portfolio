@@ -142,7 +142,7 @@ main {
 .first {
     min-height: 500px;
     flex-basis: 100%;
-    background-image: url(./coming\ soon.jpg);
+    background-image: url(./nebula.png);
     background-position: center;
 }   
 /* smaller flexbox for projects two and onward */
@@ -169,7 +169,7 @@ main {
 .title h2 {
     text-align: center;
     padding: 10%;
-    font-size: 20pt;
+    font-size: 16pt;
     color: black;
 }
 /* flexbox rules for second (smaller) title box */
